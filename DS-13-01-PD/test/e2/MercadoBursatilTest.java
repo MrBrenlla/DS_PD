@@ -99,11 +99,13 @@ public class MercadoBursatilTest {
         sencillo.clienteInteresado(apple);
         sencillo.clienteInteresado(microsoft);
         mercado.addAccion(apple);
+        mercado.cierreAccion(microsoft,5);
         mercado.cierreAccion(apple,10);
+        
         
         assertEquals(apple.getCierre(), sencillo.getInfo("APL"),0);
         
-        assertEquals("APL: 10.0, ",sencillo.toString());
+        assertEquals("MSF: 5.0, APL: 10.0, ",sencillo.toString());
     }
     
     @Test

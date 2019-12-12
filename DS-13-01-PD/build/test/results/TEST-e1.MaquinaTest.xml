@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="PC-Brais" name="e2.MercadoBursatilTest" skipped="0" tests="12" time="0.044" timestamp="2019-12-12T18:52:16">
+<testsuite errors="0" failures="0" hostname="PC-Brais" name="e1.MaquinaTest" skipped="0" tests="5" time="0.054" timestamp="2019-12-12T18:52:16">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="ES" />
@@ -60,7 +60,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner e2.MercadoBursatilTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bgbre\Documents\NetBeansProjects\DS-13-01-PD\build\test\results\TEST-e2.MercadoBursatilTest.xml crashfile=C:\Users\bgbre\Documents\NetBeansProjects\DS-13-01-PD\build\junitvmwatcher7198631953513681639.properties propsfile=C:\Users\bgbre\Documents\NetBeansProjects\DS-13-01-PD\build\junit2340295854769993305.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner e1.MaquinaTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bgbre\Documents\NetBeansProjects\DS-13-01-PD\build\test\results\TEST-e1.MaquinaTest.xml crashfile=C:\Users\bgbre\Documents\NetBeansProjects\DS-13-01-PD\build\junitvmwatcher9206615410817255859.properties propsfile=C:\Users\bgbre\Documents\NetBeansProjects\DS-13-01-PD\build\junit4996255083870741298.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -419,18 +419,11 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="e2.MercadoBursatilTest" name="testClienteInteresado" time="0.001" />
-  <testcase classname="e2.MercadoBursatilTest" name="testUpdateDetallado" time="0.001" />
-  <testcase classname="e2.MercadoBursatilTest" name="testMeterAccion" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testGetInfoDetallado" time="0.001" />
-  <testcase classname="e2.MercadoBursatilTest" name="testSetValorAccion" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testAddAccion" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testSetVolumenAccion" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testUpdateSencillo" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testClienteNonInteresado" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testCierreAccion" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testRmAccion" time="0.0" />
-  <testcase classname="e2.MercadoBursatilTest" name="testQuitarAccion" time="0.0" />
+  <testcase classname="e1.MaquinaTest" name="testCambioSimple" time="0.012" />
+  <testcase classname="e1.MaquinaTest" name="testSaltoDeCambioAutomatico" time="0.003" />
+  <testcase classname="e1.MaquinaTest" name="testFindPrece" time="0.001" />
+  <testcase classname="e1.MaquinaTest" name="testCancel" time="0.0" />
+  <testcase classname="e1.MaquinaTest" name="testCambioDeposito" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
